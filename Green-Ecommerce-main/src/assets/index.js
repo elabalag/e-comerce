@@ -1,0 +1,11 @@
+export { default as b1 } from "./b1.png";
+export { default as b2 } from "./b2.png";
+export { default as b3 } from "./b3.png";
+export { default as b4 } from "./b4.png";
+export { default as men } from "./men.jpg";
+export { default as women1 } from "./women1.jpg";
+export { default as women2 } from "./women2.jpg";
+export { default as shoe } from "./shoe.jpg";
+export { default as shoeCover } from "./shoeCover.webp";
+export { default as watch } from "./watch.jpg";
+export { default as bottom } from "./bottom.jpg";

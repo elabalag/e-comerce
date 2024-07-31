@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import "rsuite/dist/rsuite.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dropdown {
+    @apply block md:py-2 p-1 md:px-3 text-xs md:text-base font-medium text-white hover:bg-black/40 w-full rounded-md
+}
+
+.selectBtn {
+    @apply h-14 w-14 border-[1.5px] hover:shadow-lg font-semibold text-lg border-slate-600 rounded-full
+}
+
+* {
+    /* font-family: 'Lato', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+font-family: 'Roboto', sans-serif;
+}
+
+.cartText {
+    @apply flex justify-between items-center mt-1 
+}
+
+.textField {
+    @apply p-3 bg-slate-100 rounded-md text-slate-800 outline-green-200 duration-150 transition-all focus:bg-green-50 
+}
+
+.button {
+    @apply bg-green-500 p-3 rounded-md text-lg text-white duration-150 transition-all hover:bg-green-600 flex items-center justify-center
+}
+
+.shippingInput {
+    @apply bg-slate-50 p-2 items-center mb-2 outline-none text-slate-700 font-normal
+}
+
+.likeButton {
+    @apply text-2xl absolute z-10 bottom-3 right-4
+}
+
+.header {
+    @apply text-lg mt-10 mb-4 sm:text-2xl sm:mt-12 md:text-3xl md:mt-16 md:mb-8 lg:mt-20 lg:mb-10 lg:text-4xl font-bold
+}
